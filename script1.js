@@ -49,7 +49,7 @@ case "martedi": console.log("E' martedi"); break;
 
 //if valori sempre true tutto il resto
 
-let mese=3;
+let mese=2;
 
 switch (mese)
 {
@@ -65,6 +65,12 @@ case 7:
 case 8:console.log("Estate"); break;
 case 9:
 case 10:console.log("Autunno"); break;
+}
+
+switch (true)
+{
+case (mese==1 || mese==2):console.log("Inverno1"); break;
+
 }
 
 
