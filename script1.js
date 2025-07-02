@@ -49,6 +49,65 @@ case "martedi": console.log("E' martedi"); break;
 
 //if valori sempre true tutto il resto
 
+let mese=3;
+
+switch (mese)
+{
+case 11:
+case 12:
+case 1:
+case 2:console.log("Inverno"); break;
+case 3:
+case 4:
+case 5:console.log("Primavera"); break;
+case 6:
+case 7:
+case 8:console.log("Estate"); break;
+case 9:
+case 10:console.log("Autunno"); break;
+}
+
+
+let eta1=10;
+
+
+if (eta1 >=0 && eta1<=12)
+{
+
+    console.log("Bambino");
+
+}
+
+if (eta1 >=13 && eta1<=17)
+{
+
+    console.log("adolescente");
+
+}
+
+
+if (eta1 >=18 && eta1<=64)
+{
+
+    console.log("adulto");
+
+}
+
+if (eta1 >64)
+{
+
+    console.log("anziano");
+
+}
+
+
+if (eta1<0 || eta1>120)
+
+    {
+
+        console.log("Eta' non valida");
+    }
+
 
 
 
