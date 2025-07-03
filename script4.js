@@ -161,7 +161,7 @@ console.log(a)
 )
 
 
-let stringa="parola";
+let stringa="PAROLA";
 let numvoc=0;
 let array_vocali=["a","e","i","o","u"]
 
@@ -170,7 +170,7 @@ array_vocali.forEach (
     function(a,b)
 {
 
-stringa.toLowerCase();
+stringa=stringa.toLowerCase();
 
 if (stringa.search(a)>0)
 {
