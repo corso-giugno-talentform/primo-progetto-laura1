@@ -170,6 +170,7 @@ array_vocali.forEach (
     function(a,b)
 {
 
+stringa.toLowerCase();
 
 if (stringa.search(a)>0)
 {
