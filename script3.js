@@ -6,7 +6,7 @@ let y=5;
 let z=3;
 
 
-
+//funzioni
 
 
 function sum(a,b) //variabili locali
@@ -27,7 +27,7 @@ let operazione="+";
 
 console .log(somma);
 
-console.log(Calc(numero1,numero2,operazione))
+console.log("Risultato tra " + numero1 + ' ' + operazione + ' ' + numero2 + ' = ' + Calc(numero1,numero2,operazione))
 
 function Calc(a,b,c)
 {
@@ -36,7 +36,17 @@ function Calc(a,b,c)
 {
 
     case "+":return  a+b;
-    case "/":return  a/b;
+    case "/":
+        if (b==0)
+        {
+            return "Divisione per zero non consentita";
+        }
+else
+{
+ return  a/b;
+}
+    
+   
     case "*":return  a*b;
     case "-":return  a-b;
 

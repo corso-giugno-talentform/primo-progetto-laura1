@@ -176,6 +176,7 @@ if (stringa.search(a)>0)
 {
 
 numvoc=numvoc+1;
+
 }
 
 }
